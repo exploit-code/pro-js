@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  padding: 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2f2d2d;
+}
+
+.sum-products {
+  color: #fff;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 5px 30px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+  -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.heading {
+  width: 100%;
+  padding: 30px 0 20px 0;
+  text-align: center;
+}
+
+.product {
+  max-width: 300px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.product-img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product-desc {
+  padding: 10px;
+  background-color: #2f2d2d;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.product-price {
+  margin: 10px 0;
+}
+
+.product-btn {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.product-quantity {
+  margin: 10px 0;
+}
+
+.cart {
+  display: none;
+}
+
+.cart-item {
+  max-width: 300px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.invisible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=style.css.map */
