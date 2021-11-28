@@ -1,0 +1,30 @@
+[
+  {
+    "id_product": 100,
+    "product_name": "Notebook",
+    "price": 145000,
+    "imgProduct": "./img/products/Notebook.jpeg",
+    "imgCart": "./img/cart/Notebook.jpeg"
+  },
+  {
+    "id_product": 200,
+    "product_name": "Mouse",
+    "price": 5500,
+    "imgProduct": "./img/products/Mouse.jpeg",
+    "imgCart": "./img/cart/Mouse.jpeg"
+  },
+  {
+    "id_product": 278,
+    "product_name": "Keyboard",
+    "price": 6500,
+    "imgProduct": "./img/products/Keyboard.jpeg",
+    "imgCart": "./img/cart/Keyboard.jpeg"
+  },
+  {
+    "id_product": 792,
+    "product_name": "Headphones",
+    "price": 18000,
+    "imgProduct": "./img/products/Headphones.jpeg",
+    "imgCart": "./img/cart/Headphones.jpeg"
+  }
+]
