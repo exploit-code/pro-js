@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  background-image: url(../img/wallhaven-3z91ey-1024x576-MM-90.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  color: ghostwhite;
+  font-size: 30px;
+}
+.btn-cart {
+  padding: 5px 25px;
+  background-color: transparent;
+  border: 2px solid ghostwhite;
+  border-radius: 20px;
+  color: ghostwhite;
+  font-size: 18px;
+}
+
+.search-field {
+  box-sizing: border-box;
+  width: 200px;
+  color: white;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid ghostwhite;
+}
+
+.btn-cart:hover {
+  border-color: #fe0257;
+  cursor: pointer;
+  color: #fe0257;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  max-width: 300px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cart {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.cart-block {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.62);
+  border-radius: 5px;
+  box-sizing: border-box;
+  right: 0;
+  top: 130%;
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  color: black;
+  width: 450px;
+}
+
+.invisible {
+  display: none;
+}
+
+.cart-block:before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -10px;
+  right: 35px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+
+.btn-search {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+}
+
+.btn-search:active {
+  background-color: transparent;
+  border: none;
+}
+
+.search-form {
+  position: relative;
+  margin-right: 50px;
+  display: inline-block;
+}
+
+.search-field:focus {
+  outline: none;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.product-bio {
+  display: flex;
+}
+
+.cart-item img {
+  align-self: flex-start;
+  margin-right: 15px;
+  padding-top: 0;
+}
+
+.product-single-price {
+  color: black;
+  font-size: 0.75em;
+}
+
+.product-price {
+  margin-left: 30px;
+}
+
+.desc {
+  padding: 10px 0 0 0;
+  color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+}
+.price {
+  margin: 10px 0;
+}
+
+.buy-btn {
+  padding: 5px 25px;
+  background-color: transparent;
+  border: 2px solid ghostwhite;
+  border-radius: 20px;
+  color: ghostwhite;
+}
+
+.buy-btn:hover {
+  border-color: #fe0257;
+  cursor: pointer;
+  color: #fe0257;
+}
+
+.product-quantity {
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.75em;
+}
+
+.right-block {
+  text-align: right;
+}
+
+.cart-sum {
+  text-align: center;
+  margin: 0 auto 15px;
+  font-size: 1.15em;
+}
+
+.found {
+  text-align: center;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
